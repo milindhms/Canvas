@@ -10,7 +10,7 @@ This project is built in Python. We recommend using a virtual environment.
 ```bash
 pip install -r requirements.txt
 ```
-##🧠 How It Works (The Simple Explanation)
+## 🧠 How It Works (The Simple Explanation)
 
 The software is split into two main steps to keep the math fast and efficient:
 
@@ -18,7 +18,7 @@ Step 1: The Geometry Engine: It reads the shape of your canvas and any holes (ob
 
 Step 2: The Routing Engine: It takes those unorganized paint strokes and treats them like a puzzle. Using Google OR-Tools, it calculates the absolute shortest path to connect all the strokes together without wasting time flying through the air.
 
-##🚀 How to Run the Code
+## 🚀 How to Run the Code
 Edit your canvas: Open canvas.json and set your canvas coordinates, obstacle coordinates, tool diameter, and the direction the robot will approach from (e.g., "West").
 
 Run the Geometry Engine: Open and run geometry_engine.ipynb. This generates the safe paint strokes and saves them to generated_swaths.json.
