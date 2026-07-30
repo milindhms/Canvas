@@ -1,0 +1,6 @@
+shapely
+numpy
+matplotlib
+networkx
+ortools
+jupyterlab
